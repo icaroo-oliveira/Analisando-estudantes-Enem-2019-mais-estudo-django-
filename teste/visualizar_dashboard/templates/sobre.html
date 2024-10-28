@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showing Dashboards</title>
+    <style>
+        body {
+            display: flex; /* Ativa o flexbox */
+            flex-direction: column; /* Alinha os elementos em coluna */
+            min-height: 100vh; /* Altura mínima da viewport */
+            margin: 0; /* Remove margens padrão */
+            font-family: Arial, sans-serif; /* Fonte do corpo */
+            padding: 20px; /* Adiciona um padding para evitar que o conteúdo encoste nas bordas */
+            box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+        }
+
+
+        .titulo {
+            text-align: center; /* Centraliza o texto */
+            font-size: 2.5em; /* Tamanho da fonte do título */
+            margin-top: 30px; /* Margem superior */
+        }
+
+        .paragrafo {
+            text-align: left; /* Alinha à esquerda */
+            font-size: 1.3em; /* Tamanho da fonte do parágrafo */
+            margin: 10px 30px; /* Margens reduzidas para o parágrafo */
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px; /* Aumenta o padding do footer */
+            background-color: #f1f1f1; /* Cor de fundo */
+            border-top: 1px solid #ccc; /* Borda superior */
+            margin-top: auto; /* Garante que o footer fique no fundo */
+        }
+
+        footer p {
+            margin: 5px 0; /* Margem entre os parágrafos do footer */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="titulo">Sobre o Projeto</h1>
+
+    <p class="paragrafo">
+        <br>
+        <br>
+        <br>
+        Projeto surgiu de uma combinação entre um dashboard que foi construido por mim para um processo da Liga de inteligência artificial da UEFS e 
+        a vontade de aprender um pouco mais sobre desenvolvimento WEB. 
+        Os dados usados foram do ministério da educação e envolveu um processamento dos dados com o POWER BI, transformando-os,
+        filtrando linhas e colunas indesejadas (linhas de participantes de outras estados e cidades...), foco nos não-treineiros, verificação de linhas com valores nulos, filtragem por presença (somente os usuarios que foram os dois dias...), variáveis categoricas para uma representação númericas, combinação de colunas e outros... 
+
+        Por fim, o plano inicial era o dashboard interativo, mas como precisa de permissões no POWER BI que eu não tenho, coloquei a versão estática e disponibilizei o arquivo interativo.
+           
+        <br><br>
+
+
+    </p>
+
+
+    <footer>
+        <p>© 2024 Ícaro José Batista de Oliveira.</p>
+        <p>Github: <a href="https://github.com/icaroo-oliveira" target="_blank">GitHub</a></p>
+        <p>Email: icarooo10.j@gmail.com </p>
+    </footer>
+
+    <script>
+        // Adicione seu código JavaScript aqui, se necessário
+    </script>
+
+</body>
+</html>

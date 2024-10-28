@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        .centralizado {
+            text-align: center; 
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="centralizado">
+        <h1>Dashboard não interativo</h1>
+    </div>
+    
+    <div class="centralizado">
+        <img src="{% static 'imagens/dashboard.jpg' %}" alt="dashboard" width="1280" height="680">
+    </div>
+
+    <div class="centralizado">
+        <h1 style="font-size: 18px;">Baixe o dashboard interativo!</h1>
+        <a href="{% static 'imagens/dashboard.pbix' %}" download>Baixar Dashboard PBIX</a>
+    </div>
+    
+
+</body>
+</html>
